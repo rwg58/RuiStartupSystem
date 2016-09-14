@@ -21,7 +21,7 @@
         }
         #background {
             width: 100%;
-                 background-image: url(img/man.png);
+                 background-image: url(img/background_image.png);
                 max-width: 1500px;
                 min-height: 800px;
                 margin: 0 auto;
