@@ -22,7 +22,12 @@
 
 </script>
 </head>
-
+<style>
+    .btn-click {
+        margin-top: 20px;
+        font-size: 18px;
+    }    
+</style>
 <body>
 
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -48,7 +53,7 @@
                 <h1 id="t">WELCOME, THE VISOTOR!!!</h1>
                 <h3 style="font-size:27px;">Ruirui Wang, THE Computer Scientist</h3>
                 <hr class="intro-divider">
-
+                <button type="button" class="btn btn-default btn-click">Click me</button>
             </div>
         </div>
     </div>
@@ -226,6 +231,11 @@
         //             }, 600);
                 
         //     }
+        $(document).ready(function(){
+            $(".btn-click").click(function(){
+                alert("Yes, you got it!");
+            });
+        });
             
     </script>
 </html>
